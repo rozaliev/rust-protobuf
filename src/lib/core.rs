@@ -4,7 +4,7 @@ use std::mem;
 use std::raw;
 use std::fmt;
 use std::default::Default;
-use std::intrinsics::TypeId;
+use std::any::TypeId;
 
 use clear::Clear;
 use reflect::MessageDescriptor;

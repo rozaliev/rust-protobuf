@@ -112,8 +112,8 @@ impl ::protobuf::Message for Test1 {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<Test1>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<Test1>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -274,8 +274,8 @@ impl ::protobuf::Message for TestRepeatedBool {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<TestRepeatedBool>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<TestRepeatedBool>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -442,8 +442,8 @@ impl ::protobuf::Message for TestRepeatedPackedInt32 {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<TestRepeatedPackedInt32>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<TestRepeatedPackedInt32>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -686,8 +686,8 @@ impl ::protobuf::Message for TestRepeatedMessages {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<TestRepeatedMessages>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<TestRepeatedMessages>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -978,8 +978,8 @@ impl ::protobuf::Message for TestOptionalMessages {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<TestOptionalMessages>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<TestOptionalMessages>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -1273,8 +1273,8 @@ impl ::protobuf::Message for TestStrings {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<TestStrings>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<TestStrings>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -1649,8 +1649,8 @@ impl ::protobuf::Message for PerftestData {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<PerftestData>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<PerftestData>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {

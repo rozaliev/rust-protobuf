@@ -1653,8 +1653,8 @@ fn write_message_impl_message(w: &mut IndentWriter) {
         w.write_line("");
         write_message_unknown_fields(w);
         w.write_line("");
-        w.def_fn("type_id(&self) -> ::std::intrinsics::TypeId", |w| {
-            w.write_line(format!("::std::intrinsics::TypeId::of::<{}>()", msg.type_name));
+        w.def_fn("type_id(&self) -> ::std::any::TypeId", |w| {
+            w.write_line(format!("::std::any::TypeId::of::<{}>()", msg.type_name));
         });
         w.write_line("");
         w.def_fn("descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor", |w| {

@@ -117,8 +117,8 @@ impl ::protobuf::Message for FileDescriptorSet {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<FileDescriptorSet>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<FileDescriptorSet>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -712,8 +712,8 @@ impl ::protobuf::Message for FileDescriptorProto {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<FileDescriptorProto>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<FileDescriptorProto>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -1200,8 +1200,8 @@ impl ::protobuf::Message for DescriptorProto {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<DescriptorProto>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<DescriptorProto>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -1433,8 +1433,8 @@ impl ::protobuf::Message for DescriptorProto_ExtensionRange {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<DescriptorProto_ExtensionRange>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<DescriptorProto_ExtensionRange>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -1925,8 +1925,8 @@ impl ::protobuf::Message for FieldDescriptorProto {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<FieldDescriptorProto>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<FieldDescriptorProto>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -2347,8 +2347,8 @@ impl ::protobuf::Message for EnumDescriptorProto {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<EnumDescriptorProto>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<EnumDescriptorProto>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -2624,8 +2624,8 @@ impl ::protobuf::Message for EnumValueDescriptorProto {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<EnumValueDescriptorProto>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<EnumValueDescriptorProto>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -2907,8 +2907,8 @@ impl ::protobuf::Message for ServiceDescriptorProto {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<ServiceDescriptorProto>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<ServiceDescriptorProto>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -3252,8 +3252,8 @@ impl ::protobuf::Message for MethodDescriptorProto {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<MethodDescriptorProto>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<MethodDescriptorProto>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -3797,8 +3797,8 @@ impl ::protobuf::Message for FileOptions {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<FileOptions>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<FileOptions>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -4131,8 +4131,8 @@ impl ::protobuf::Message for MessageOptions {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<MessageOptions>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<MessageOptions>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -4532,8 +4532,8 @@ impl ::protobuf::Message for FieldOptions {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<FieldOptions>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<FieldOptions>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -4811,8 +4811,8 @@ impl ::protobuf::Message for EnumOptions {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<EnumOptions>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<EnumOptions>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -4984,8 +4984,8 @@ impl ::protobuf::Message for EnumValueOptions {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<EnumValueOptions>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<EnumValueOptions>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -5150,8 +5150,8 @@ impl ::protobuf::Message for ServiceOptions {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<ServiceOptions>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<ServiceOptions>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -5316,8 +5316,8 @@ impl ::protobuf::Message for MethodOptions {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<MethodOptions>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<MethodOptions>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -5737,8 +5737,8 @@ impl ::protobuf::Message for UninterpretedOption {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<UninterpretedOption>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<UninterpretedOption>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -5997,8 +5997,8 @@ impl ::protobuf::Message for UninterpretedOption_NamePart {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<UninterpretedOption_NamePart>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<UninterpretedOption_NamePart>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -6171,8 +6171,8 @@ impl ::protobuf::Message for SourceCodeInfo {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<SourceCodeInfo>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<SourceCodeInfo>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
@@ -6482,8 +6482,8 @@ impl ::protobuf::Message for SourceCodeInfo_Location {
         &mut self.unknown_fields
     }
 
-    fn type_id(&self) -> ::std::intrinsics::TypeId {
-        ::std::intrinsics::TypeId::of::<SourceCodeInfo_Location>()
+    fn type_id(&self) -> ::std::any::TypeId {
+        ::std::any::TypeId::of::<SourceCodeInfo_Location>()
     }
 
     fn descriptor(&self) -> &'static ::protobuf::reflect::MessageDescriptor {
